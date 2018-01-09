@@ -13,4 +13,5 @@ b) In order to properly scrap the data from the website I followed a simpler app
 I performed the following steps:
 
 Open MS Excel->Data->From Web->Enter the URL of the webpage that you want to scrap->Select Table 1.
-The table will be neatly extracted into MS Excel and all the columns are properly displayed as shown int the output image.Save this as a .csv file.Using pandas.read_csv I loaded this data into a dataframe and started playing with the data.
+
+The table will be neatly extracted into MS Excel and all the columns are properly displayed as shown in the output image.Save this as a .csv file. Using pandas.read_csv I loaded this data into a dataframe and started playing with the data.
