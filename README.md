@@ -1,6 +1,7 @@
 # Transfer-market-analysis-Soccer-
 The aim of the project is to analyze the 2017 soccer transfer market and derive useful results on the number of transfers made by clubs all over the world .
 
+
 #Things learned:
 
 1.How to scrap data from a website using BeautifulSoup.
@@ -28,4 +29,8 @@ I wrote some code to explore the data and find out the following:
 2.The number of players bought by a club.
 
 
-Then I converted the pandas dataframe to a Spark dataframe which enabled me run complex SQL queries on the data.FOr example I was able to return a list of transfers made within a specific date range by a club or set of clubs as shown in the output.
+Then I converted the pandas dataframe to a Spark dataframe which enabled me to run complex SQL queries on the data.For example I was able to return a list of transfers made within a specific date range by a club or set of clubs as shown in the output.
+
+Then I was able to explore the data further and extract out information such as the number of players sold and bought by each club involved in the transfer market.
+
+I have learnt a lot about SPARK,BeautifulSoup,MS-Excel by doing this pet project.Keep learning everyday!
