@@ -38,6 +38,26 @@ print(df)
 
 
 
+#Expirementing on the data
+import numpy as np
+from sklearn.preprocessing import LabelEncoder
+import matplotlib
+import matplotlib.pyplot as plt
+#To display the number of players each club has sold in the summer market
+sold=transfer.iloc[:,2].values
+val,freq=np.unique(sold,return_counts=True)
+zipped=zip(val,freq)#Zipping the val and counts list elementwise into a single list.This returns a zipped object
+print(list(zipped))#To print the zipped object we need to use list()
+
+
+#To display the number of players each club has bought in the summer market
+buy=transfer.iloc[:,3].values
+val1,freq1=np.unique(buy,return_counts=True)
+print(list(zip(val1,freq1)))
+
+
+
+
 
 
 #Extracting data from wikipedia using MS Excel
